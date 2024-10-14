@@ -11,12 +11,14 @@
   import Process from "@/components/Process.vue";
   import Hosting from "@/components/Hosting.vue";
   import About from "@/components/About.vue";
+  import Hero from "@/components/Hero.vue";
     export default{
       components:{
         Course,
         Process,
         Hosting,
         About,
+        Hero,
       }
     }
   </script>
