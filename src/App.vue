@@ -3,7 +3,6 @@
         <div class="hero_area">
              <Header></Header>
         </div>
-
         <router-view></router-view>
     </div>
     <Info></Info>
