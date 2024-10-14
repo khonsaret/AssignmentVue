@@ -203,6 +203,7 @@ img {
 svg {
   overflow: hidden;
   vertical-align: middle;
+  height: 30px;
 }
 
 table {
@@ -6558,7 +6559,9 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  /* background-color: #dc3545 !important; */
+  background:none !important;
+  color: #ffffff;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,

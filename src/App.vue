@@ -2,34 +2,26 @@
   <div class="sub_page">
         <div class="hero_area">
              <Header></Header>
-         </div>
-        <!-- <About></About>
-        <Footer></Footer> -->
-
-        <!-- //delete About & Footer -->
+             <Hero></Hero>
+        </div>
         <router-view></router-view>
     </div>
+    <Info></Info>
     <Footer></Footer>
     
 </template>
 <script>
 import Header from "@/components/Header.vue";
+import Hero from "@/components/Hero.vue";
 import Footer from "@/components/Footer.vue";
+import Info from "@/components/Info.vue";
+
   export default{
     components:{
       Header,
+      Hero,
       Footer,
+      Info,
     }
   }
 </script>
-
-<!-- 6.when add router-view delete all below-->
-<!-- <script>
-import About from '@/pages/About.vue';
-export default {
-  components:{
-    About,
-  }
-  
-}
-</script> -->

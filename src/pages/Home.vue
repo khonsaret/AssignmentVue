@@ -1,27 +1,22 @@
 <template>
     <Hero></Hero>
-    <Service></Service>
+    <Course></Course>
+    <Process></Process>
+    <Hosting></Hosting>
     <About></About>
-    <Why></Why>
-    <Team></Team>
-    <Info></Info>
   </template>
   
   <script>
-  import Hero from "@/components/Hero.vue";
-  import Service from "@/components/Service.vue";
+  import Course from "@/components/Course.vue";
+  import Process from "@/components/Process.vue";
+  import Hosting from "@/components/Hosting.vue";
   import About from "@/components/About.vue";
-  import Why from "@/components/Why.vue";
-  import Team from "@/components/Team.vue";
-  import Info from "@/components/Info.vue";
     export default{
       components:{
-        Hero,
-        Service,
+        Course,
+        Process,
+        Hosting,
         About,
-        Why,
-        Team,
-        Info,
       }
     }
   </script>

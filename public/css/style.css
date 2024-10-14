@@ -47,10 +47,23 @@ body {
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
+  font-size: 40px;
+  display: block;
 }
 
 .heading_container h2 span {
   color: #00bbf0;
+}
+
+.card-body h3{
+  font-weight: bold;
+}
+.card-body h3 span {
+  color: #00bbf0;
+  font-size: 30px;
+}
+.card-header h4{
+  font-weight: bold;
 }
 
 .heading_container p {
@@ -127,7 +140,7 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
-  background: linear-gradient(130deg, #231a6f, #0f054c);
+  /* background: linear-gradient(130deg, #231a6f, #0f054c); */
 }
 
 .sub_page .hero_area .hero_bg_box {
@@ -258,7 +271,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 45px 0 145px 0;
+  padding: 45px 0 100px 0;
 }
 
 .slider_section .row {
@@ -339,8 +352,8 @@ a:focus {
 
 .slider_section .img-box img {
   width: 100%;
-  -webkit-animation: upDown 5s infinite;
-          animation: upDown 5s infinite;
+  /* -webkit-animation: upDown 5s infinite;
+          animation: upDown 5s infinite; */
 }
 
 @-webkit-keyframes upDown {
@@ -483,8 +496,8 @@ a:focus {
 }
 
 .about_section {
-  background-color: #00204a;
-  color: #ffffff;
+  /* background-color: #00204a;
+  color: #ffffff; */
 }
 
 .about_section .heading_container {
@@ -859,8 +872,12 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
+  margin: 3px 0;
   color: #ffffff;
+}
+
+.info_section .info_links a span{
+  margin:0 10px;
 }
 
 .info_section .info_links a:hover {
@@ -914,12 +931,12 @@ a:focus {
 /* footer section*/
 .footer_section {
   position: relative;
-  background-color: #ffffff;
+  background-color: #00204a;
   text-align: center;
 }
 
 .footer_section p {
-  color: #00204a;
+  color: #ffffff;
   padding: 25px 0;
   margin: 0;
 }
@@ -928,3 +945,53 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+.gradient-background {
+  background: linear-gradient(300deg, #0088aa, #002244, #005454);
+  background-size: 180% 180%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+.profile{
+  border-radius: 50%;
+}
+.about_section, .about_section {
+  background-color: #002244;
+  color: #ffffff;
+}
+.layout_padding, .layout_padding2 {
+  padding: 50px 0;
+}
+.info_section a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn{
+  //background-color: #002244;
+}
+.icon-link{
+  
+}
+

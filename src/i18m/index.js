@@ -1,33 +1,22 @@
-
-import Repository from '@/pages/Repository.vue'
 import { createI18n } from 'vue-i18n'
-
 const messages = {
     en: {
         home: "Home",
-        courses:"Courses",
-        rigister:"Register",
+        course:"Course",
+        process:"Process",
+        hosting:"Hosting",
         about:"About",
-        service:"Service",
-        why:"Why",
-        team:"Team",
-        repos:"Repos",
-        login:"Login",
-        lang:"En",
-        tlogo:"Finexo"
+        // lang:"EN",
+        tlogo:"KHONSARET"
     },
     khm: {
         home: "ទំព័រដើម",
-        courses:"មុខវិជ្ជា",
-        rigister:"ចុះឈ្មោះ",
+        course:"វគ្គសិក្សា",
+        process:"ដំណើរការ",
+        hosting:"តម្លៃបង្ហោះ",
         about:"អំពីយើង",
-        service:"សេវាកម្ម",
-        why:"ហេតុអ្វីយើង",
-        team:"ក្រុម",
-        repos:"ឃ្លាំអ",
-        login:"ចូលប្រើប្រាស់",
-        lang:"Kh",
-        tlogo:"ហ្វីនីហ្សូ"
+        // lang:"KH",
+        tlogo:"ខុនសារ៉េត"
     
     },
 }
