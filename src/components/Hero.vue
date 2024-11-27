@@ -12,7 +12,7 @@
                       <img src="images/khonsaret_profile_website.png" class="profile d-block mx-lg-auto img-fluid fs-6" alt="Bootstrap Themes" width="150" height="150" loading="lazy">
                     </div>
                     <div class="display-5 lh-1 mb-3 text-center">
-                      <h3 class="display-10 fw-bold lh-1 mb-3 text-white text-center">Web Development Trainer</h3>
+                      <h3 class="display-10 fw-bold lh-1 mb-3 text-white text-center">Khon Saret Web Development Trainer</h3>
                       <p>Our trainers is providing training courses in Web Development both in person and online. People who want a creative career path may enjoy web development.</p>
                       <div>
                         <button type="button" class="btn btn-primary btn-lg px-4 me-md m-3">
